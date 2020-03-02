@@ -1,0 +1,15 @@
+name: BreachFreeze
+version: 1.0-SNAPSHOT
+main: be.woutdev.breachfreeze.BreachFreeze
+author: Wout Ceulemans
+website: www.woutdev.be
+commands:
+  freeze:
+    description: Freeze a player
+  unfreeze:
+    description: Unfreeze a player
+permissions:
+  breachfreeze.freeze:
+    description: The ability to use the freeze command
+  breachfreeze.unfreeze:
+    description: The ability to use the unfreeze command
